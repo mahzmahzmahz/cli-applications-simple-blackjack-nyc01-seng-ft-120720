@@ -5,8 +5,8 @@ end
 
 def deal_card
   # code #deal_card 
-  card = rand(1...11)
-  puts card
+ rand(1...11)
+  
   
 end
 
