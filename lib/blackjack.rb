@@ -31,7 +31,6 @@ end
 
 def initial_round
   card_total = deal_card.to_i + deal_card.to_i
-  
   display_card_total(card_total)
   
   return card_total
@@ -41,6 +40,9 @@ end
 
 def hit?
   # code hit? here
+  prompt_user
+  string == get_user_input
+  
 end
 
 def invalid_command
