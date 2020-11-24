@@ -32,7 +32,7 @@ end
 def initial_round
   deal_card
   deal_card
-  puts deal_card_total
+  
   
   # code #initial_round here
 end
