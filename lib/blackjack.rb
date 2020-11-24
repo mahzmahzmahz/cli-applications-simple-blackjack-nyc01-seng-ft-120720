@@ -38,10 +38,10 @@ def initial_round
   # code #initial_round here
 end
 
-def hit?
+def hit?(card_total)
   # code hit? here
   prompt_user
-  get_user_input 
+  string = get_user_input 
   #if string == "s" || string == "h"
    # if string == "h"
     #  deal_card
