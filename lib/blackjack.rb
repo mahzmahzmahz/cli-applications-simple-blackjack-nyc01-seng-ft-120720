@@ -5,7 +5,8 @@ end
 
 def deal_card
   # code #deal_card 
-  card = []
+  card = rand(1...11)
+  pu
   
 end
 
