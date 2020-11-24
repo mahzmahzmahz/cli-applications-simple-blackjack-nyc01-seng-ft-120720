@@ -41,15 +41,15 @@ end
 def hit?
   # code hit? here
   prompt_user
-  get_user_input == string
-  if string == "s" || string == "h"
-    if string == "h"
-      deal_card
-    end
-  else 
-    invalid_command
-  end
-end
+  #get_user_input == string
+  #if string == "s" || string == "h"
+   # if string == "h"
+    #  deal_card
+  #  end
+  #else 
+   # invalid_command
+#  end
+#end
 
 def invalid_command
   # code invalid_command here
