@@ -43,6 +43,8 @@ def hit?
   prompt_user
   string == get_user_input
   if string == "s" || string == "h"
+    if string == "h"
+      deal_card
 end
 
 def invalid_command
