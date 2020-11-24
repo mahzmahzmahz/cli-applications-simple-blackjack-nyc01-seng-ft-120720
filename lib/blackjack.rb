@@ -41,7 +41,7 @@ end
 def hit?
   # code hit? here
   prompt_user
-  #get_user_input == string
+  get_user_input 
   #if string == "s" || string == "h"
    # if string == "h"
     #  deal_card
