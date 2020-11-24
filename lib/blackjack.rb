@@ -6,7 +6,7 @@ end
 def deal_card
   # code #deal_card 
   card = rand(1...11)
-  pu
+  puts card
   
 end
 
