@@ -10,7 +10,7 @@ end
 
 def display_card_total(card)
   # code #display_card_total here
-  
+  card_total = 
   
 end
 
