@@ -45,10 +45,12 @@ def hit?(card_total)
   if string == "s" || string == "h"
    if string == "h"
      card_total += deal_card
-  #  end
-  #else 
-   # invalid_command
-#  end
+   else
+     card_total
+   end
+  else 
+    invalid_command
+  end
 end
 
 def invalid_command
